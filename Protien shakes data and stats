@@ -1,0 +1,15 @@
+CREATE TABLE Protienshakes (id INTEGER, name TEXT, price INTEGER, rating INTEGER, quantity INTEGER);
+INSERT INTO Protienshakes VALUES (1, "CookiesnCream", 7, 8, 250);
+INSERT INTO Protienshakes VALUES (2, "PB", 7, 6, 139);
+INSERT INTO Protienshakes VALUES (3, "StrawberryCheesecake", 8, 9, 445);
+INSERT INTO Protienshakes VALUES (4, "Coffee", 7, 8, 350);
+INSERT INTO Protienshakes VALUES (5, "Maple", 8, 10, 634);
+INSERT INTO Protienshakes VALUES (6, "Blueberry", 8, 9, 576);
+SELECT * FROM Protienshakes ORDER BY price;
+
+
+
+
+
+Check out my store databse for Protienshakes above. Notice how I selected the data to be ordered by price.
+
